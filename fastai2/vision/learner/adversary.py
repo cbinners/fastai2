@@ -8,7 +8,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from fastcore.all import *
-from ...core import *
 from ...callback.all import *
 from ...metrics import accuracy
 from ...learner import *
