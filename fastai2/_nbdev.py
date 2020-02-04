@@ -732,6 +732,14 @@ index = {"subplots": "00_torch_core.ipynb",
          "wandb_process": "70_callback.wandb.ipynb",
          "TensorBoardCallback": "71_callback.tensorboard.ipynb",
          "tensorboard_log": "71_callback.tensorboard.ipynb",
+         "projected_gradient_descent": "80_adversarial_learner.ipynb",
+         "Attack": "80_adversarial_learner.ipynb",
+         "PGDAttack": "80_adversarial_learner.ipynb",
+         "nn.Module.set_bn_mode_clean": "80_adversarial_learner.ipynb",
+         "nn.Module.set_bn_mode_aux": "80_adversarial_learner.ipynb",
+         "AuxBatchNorm": "80_adversarial_learner.ipynb",
+         "DynamicPGD": "80_adversarial_learner.ipynb",
+         "AdversarialLearner": "80_adversarial_learner.ipynb",
          "synth_dbunch": "97_test_utils.ipynb",
          "RegModel": "97_test_utils.ipynb",
          "synth_learner": "97_test_utils.ipynb"}
@@ -780,6 +788,7 @@ modules = ["torch_core.py",
            "medical/text.py",
            "callback/wandb.py",
            "callback/tensorboard.py",
+           "vision/learner/adversary.py",
            "test_utils.py"]
 
 doc_url = "https://dev.fast.ai/"
